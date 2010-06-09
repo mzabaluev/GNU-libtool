@@ -1,3 +1,11 @@
+2010-06-19  Ralf Wildenhues  <Ralf.Wildenhues@gmx.de>
+
+	Fix execute mode test for OSF/1 5.1.
+	* tests/execute-mode.at (execute mode): Do not use grep -F
+	with an empty pattern.
+	* THANKS: Update.
+	Report by Jay K.
+
 2010-06-16  Ralf Wildenhues  <Ralf.Wildenhues@gmx.de>
 
 	Fix bootstrap script to cope with changed AC_INIT arguments.
