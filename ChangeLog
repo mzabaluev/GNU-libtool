@@ -1,5 +1,10 @@
 2010-06-19  Ralf Wildenhues  <Ralf.Wildenhues@gmx.de>
 
+	Clean up @var handling in the manual.
+	* doc/libtool.texi: Throughout the manual, replace @var with
+	@samp or @code as appropriate, ensure the argument of remaining
+	@var uses are lower-case.
+
 	Fix execute mode test for OSF/1 5.1.
 	* tests/execute-mode.at (execute mode): Do not use grep -F
 	with an empty pattern.
