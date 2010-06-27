@@ -5255,7 +5255,7 @@ func_mode_link ()
 	    *)
 	      case "$compile_rpath " in
 	      *" $absdir "*) ;;
-	      *) compile_rpath="$compile_rpath $absdir"
+	      *) compile_rpath="$compile_rpath $absdir" ;;
 	      esac
 	      ;;
 	    esac
@@ -5264,7 +5264,7 @@ func_mode_link ()
 	    *)
 	      case "$finalize_rpath " in
 	      *" $libdir "*) ;;
-	      *) finalize_rpath="$finalize_rpath $libdir"
+	      *) finalize_rpath="$finalize_rpath $libdir" ;;
 	      esac
 	      ;;
 	    esac
@@ -5329,7 +5329,7 @@ func_mode_link ()
 	    *)
 	      case "$compile_rpath " in
 	      *" $absdir "*) ;;
-	      *) compile_rpath="$compile_rpath $absdir"
+	      *) compile_rpath="$compile_rpath $absdir" ;;
 	      esac
 	      ;;
 	    esac
@@ -5338,7 +5338,7 @@ func_mode_link ()
 	    *)
 	      case "$finalize_rpath " in
 	      *" $libdir "*) ;;
-	      *) finalize_rpath="$finalize_rpath $libdir"
+	      *) finalize_rpath="$finalize_rpath $libdir" ;;
 	      esac
 	      ;;
 	    esac
