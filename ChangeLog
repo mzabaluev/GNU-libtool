@@ -1,3 +1,9 @@
+2010-08-01  Paolo Bonzini  <bonzini@gnu.org>
+
+	Fix bug in postdeps computation
+	* libltdl/m4/libtool.m4 (_LT_SYS_HIDDEN_LIBDEPS): Actually
+	concatenate $prev and $p.
+
 2010-07-18  Peter Rosin  <peda@lysator.liu.se>
 
 	* tests/stresstest.at: Link with main.lo when liba is shared
