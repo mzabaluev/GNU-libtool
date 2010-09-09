@@ -28,8 +28,9 @@ ACLOCAL_AMFLAGS  	= -I libltdl/m4
 AM_CPPFLAGS		=
 AM_LDFLAGS		=
 
-DIST_SUBDIRS		= .
-EXTRA_DIST		=
+SUBDIRS			= libltdl/libgnu .
+DIST_SUBDIRS		= $(SUBDIRS)
+EXTRA_DIST		= libltdl/m4/gnulib-cache.m4
 
 BUILT_SOURCES		= libtool libtoolize
 

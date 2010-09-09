@@ -194,6 +194,7 @@ AC_SUBST([DIST_MAKEFILE_LIST])
 # a good C compiler: if the following C++ tests fail, the whole libtool
 # build fails!
 AC_PROG_CC
+GL_EARLY
 AM_PROG_CC_C_O
 AC_PROG_CPP
 
@@ -253,6 +254,11 @@ else
 fi
 AC_SUBST([ORDER])
 
+## ---------------------- ##
+## Gnulib initialisation. ##
+## ---------------------- ##
+GL_INIT
+
 ## ------------- ##
 ## Documentation ##
 ## ------------- ##
@@ -261,5 +267,5 @@ AM_MISSING_PROG([HELP2MAN], [help2man])
 ## -------- ##
 ## Outputs. ##
 ## -------- ##
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([Makefile libltdl/libgnu/Makefile])
 AC_OUTPUT
