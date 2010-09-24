@@ -1,3 +1,10 @@
+2010-09-16  Gary V. Vaughan  <gary@gnu.org>
+
+	maint: use bootstrap script from gnulib.
+	* bootstrap: Replaced with gnulib script.
+	* bootstrap.conf: New file with Libtool specific bootstrap
+	configuration.
+
 2010-08-27  Gary V. Vaughan  <gary@gnu.org>
 
 	maint: add gnulib submodule, with gnulib-cache.m4 under VC.
